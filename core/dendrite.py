@@ -1,4 +1,4 @@
-from core.drive import Drive, simple_drive, proportional_dynamic_limited_drive, exponential_dynamic_limited_drive
+from core.drive import simple_drive
 
 
 class BaseDendrite:
@@ -25,5 +25,3 @@ class Dendrite(BaseDendrite):
 
 
 simple_dendrite = Dendrite(drive=simple_drive)
-proportional_dynamic_limited_dendrite = Dendrite(drive=proportional_dynamic_limited_drive)
-exponential_dynamic_limited_dendrite = Dendrite(drive=exponential_dynamic_limited_drive)

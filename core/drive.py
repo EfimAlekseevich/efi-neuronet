@@ -24,8 +24,3 @@ class Drive:
 
 
 simple_drive = Drive()
-
-proportional_dynamic_limited_drive = Drive(memory_func=samples.memory.simple_proportional,
-                                           stability_func=samples.stability.dynamic_limited, stability=0)
-exponential_dynamic_limited_drive = Drive(memory_func=samples.memory.simple_exponential,
-                                          stability_func=samples.stability.dynamic_limited, stability=0)
